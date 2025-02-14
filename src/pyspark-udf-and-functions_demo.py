@@ -13,6 +13,7 @@ orders_single_line_json_file_path = "C:\\Users\\hp\\Desktop\\pyspark-project-dem
 orders_file_path = "C:\\Users\\hp\\Desktop\\pyspark-project-demo\\input_data\\orders.json"
 products_file_path = "C:\\Users\\hp\\Desktop\\pyspark-project-demo\\input_data\\products.csv"
 
+
 # Define schema explicitly
 custom_schema = StructType([
     StructField("OrderID", StringType(), True),
