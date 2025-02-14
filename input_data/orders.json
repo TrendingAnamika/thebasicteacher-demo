@@ -1,0 +1,26 @@
+[
+  {
+    "OrderID": "O001",
+    "CustomerID": "C001",
+    "Products": ["P001", "P002", "P003"],
+    "Quantities": [2, 1, 3],
+    "PriceMap": {"P001": 500, "P002": 300, "P003": 1500},
+    "OrderDate": "2025-01-01"
+  },
+  {
+    "OrderID": "O002",
+    "CustomerID": "C002",
+    "Products": ["P002", "P004"],
+    "Quantities": [1, 2],
+    "PriceMap": {"P002": 300, "P004": 700},
+    "OrderDate": "2025-01-02"
+  },
+  {
+    "OrderID": "O003",
+    "CustomerID": "C001",
+    "Products": ["P003"],
+    "Quantities": [1],
+    "PriceMap": {"P003": 1500},
+    "OrderDate": "2025-01-03"
+  }
+]
