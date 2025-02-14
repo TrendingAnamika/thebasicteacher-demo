@@ -13,6 +13,7 @@ orders_df = spark.read.json(orders_single_line_json_file_path)
 orders_df = spark.read.option("multiline", "true").json(orders_file_path)
 
 # Understand the schema
+print("Print the schema")
 orders_df.printSchema()
 
 # Load products data (CSV)
